@@ -1,5 +1,5 @@
 import React, { useRef, useEffect, useState } from "react";
-import Theme from "../Components/Theme.js";
+import Theme from "../Components/Theme.jsx";
 import "./MoviePage.css";
 import _ from "lodash";
 
