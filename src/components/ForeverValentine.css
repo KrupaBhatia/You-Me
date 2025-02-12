@@ -1,0 +1,92 @@
+/* Background Overlay */
+.valentine-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: white;
+   
+  }
+  
+  /* Glowing Text Effect */
+  .valentine-text {
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 0 0 10px #ff4081, 0 0 20px #ff4081, 0 0 30px #ff80ab;
+    animation: glow 1.5s infinite alternate;
+  }
+  
+  /* Glowing Effect Animation */
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px #ff4081, 0 0 20px #ff80ab, 0 0 30px #ff4081;
+    }
+    to {
+      text-shadow: 0 0 20px #ff80ab, 0 0 30px #ff4081, 0 0 40px #ff4081;
+    }
+  }
+  
+  /* Buttons */
+  .buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Yes Button */
+  .yes-button {
+    padding: 15px 25px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(45deg, #ff416c, #ff4b2b);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px #ff4b2b;
+  }
+  
+  .yes-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px #ff416c;
+  }
+  
+  /* No Button */
+  .no-button {
+    padding: 15px 25px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px #2575fc;
+  }
+  
+  .no-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px #6a11cb;
+  }
+  
+  /* Response Message */
+  .response {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  /* Fade-in animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  

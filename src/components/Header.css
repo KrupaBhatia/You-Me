@@ -1,0 +1,90 @@
+/* General Header Styles */
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1); /* Transparent background */
+    backdrop-filter: blur(10px); /* Blur effect */
+    transition: all 0.3s ease-in-out;
+    z-index: 1000;
+  }
+  
+  /* Scrolling Effect */
+  .header.scrolled {
+    background: rgba(255, 0, 102, 0.8); /* Darker background on scroll */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Logo */
+  .logo {
+    color: #ff6f61;
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  /* Navigation Menu */
+  .nav .menus {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+  }
+  
+  .nav .menus li {
+    padding: 10px 15px;
+  }
+  
+  .nav .menus li a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .nav .menus li a:hover {
+    background: rgba(255, 255, 255, 0.3);
+  }
+  
+  /* Active Link */
+  .nav .menus li a.active {
+    background: #ff4d6d;
+    color: white;
+    box-shadow: 0px 4px 10px rgba(255, 0, 102, 0.5);
+  }
+  
+  /* Mobile Menu */
+  .menu-toggle {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: white;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .nav {
+      display: none;
+    }
+  
+    .nav.open {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 10px;
+      background: rgba(255, 0, 102, 0.9);
+      padding: 10px;
+      border-radius: 8px;
+    }
+  
+    .menu-toggle {
+      display: block;
+    }
+  }
+  
