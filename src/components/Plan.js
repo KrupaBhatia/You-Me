@@ -6,9 +6,9 @@ import { motion } from "framer-motion";
 import "./Plan.css"; // Import new styles
 
 const options = [
-  "Movie Night 🎬", "Candlelight Dinner 🍷", "Long Drive 🚗", "Beach Walk 🌊",
-  "Shopping 🛍️", "Gaming Night 🎮", "Food Tasting 🍕", "Picnic in Park 🌳",
-  "Stargazing ✨", "Theme Park 🎡"
+  "Movie 🎬", "restaurant or hotel with drink 🍷", "hotel and chill 🏨", "Beach Walk 🌊",
+  "Shopping 🛍️", "Gaming 🎮", "massage 💆🏻‍♂️", "temple 🛕",
+  "snow world ❄️", "Theme Park 🎡"
 ];
 
 // Draggable Item

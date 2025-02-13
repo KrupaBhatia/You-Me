@@ -11,12 +11,13 @@ const About = () => {
             </p>
             <p style={styles.paragraph}>
                 Our journey together has been nothing short of magical. We met by chance but knew from the moment we crossed paths that we were destined to 
-                create something beautiful together. Whether it's a quiet evening under the stars or a thrilling adventure exploring new places, 
+                create something beautiful together. Whether visiting temple and doing bhakti together or partying and enjoying, 
                 we're all about cherishing every moment we share.
             </p>
             <p style={styles.paragraph}>
                 This Valentine's Day, we want to bring our love story to life, sharing our passion for romance and fun with you. Whether you're celebrating 
-                with a special someone or just enjoying the spirit of the day, we hope you find inspiration in our journey. 💖
+                with a special someone or just enjoying the spirit of the day, we hope you find inspiration in our journey with our families blessigs.
+                I love You Mukesh (mukya) 💖
             </p>
         </div>
     )
